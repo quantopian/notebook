@@ -111,7 +111,7 @@ define([
         
         if (allow_css) {
             // sanitize style tags as stylesheets
-            sanitized = sanitize_stylesheets(result.sanitized, policy);
+            sanitized = sanitize_stylesheets(sanitized, policy);
         }
         
         return sanitized;
